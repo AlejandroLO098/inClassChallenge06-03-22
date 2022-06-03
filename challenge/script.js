@@ -1,7 +1,7 @@
 "use strict";
 // Create a function that takes two dates and returns the number of days
 // between the first and second date.
-
+// first try can only subtract days, It doesnt take into account the year
 let getDays = function (date1, date2) {
   return date2.getDate() - date1.getDate();
 };
